@@ -1,0 +1,3 @@
+# .NET Microservices
+
+* dotnet --version
