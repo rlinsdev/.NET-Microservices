@@ -13,6 +13,10 @@
 * `dotnet add package Microsoft.EntityFrameworkCore.SqlServer -v 1.1.1`
 
 
+### Shortcut VsCode
+| ShortCut | Obs |
+|-|-
+|Ctrl + .|Quick fix |
 
 ### Course:
 * https://github.com/binarythistle/S04E03---.NET-Microservices-Course-
