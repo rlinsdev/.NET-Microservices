@@ -1,5 +1,11 @@
 # .NET Microservices
 
+<div align="center">
+
+[![HitCount](https://hits.dwyl.com/rlinsdev/.NET-Microservices.svg?style=flat-square&show=unique)](http://hits.dwyl.com/rlinsdev/.NET-Microservices)
+
+</div>
+
 ### Commands:
 
 * `dotnet --version`: 5.0.408
