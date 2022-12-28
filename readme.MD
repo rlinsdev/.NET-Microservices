@@ -9,6 +9,8 @@
 * `dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection`
 * `dotnet add package Microsoft.EntityFrameworkCore -v 1.1.1`
 * `dotnet add package Microsoft.EntityFrameworkCore.Design -v 1.1.1`
+* `dotnet add package Microsoft.EntityFrameworkCore.InMemory -v 1.1.1`
+* `dotnet add package Microsoft.EntityFrameworkCore.SqlServer -v 1.1.1`
 
 
 
