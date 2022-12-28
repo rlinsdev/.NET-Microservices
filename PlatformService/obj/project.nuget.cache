@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lBnpYW6GIMEnJTh01KZMp3uznt2HhN/frTHRbWqK0Cwf/uEwfwVASoWyiaDSswX0v/g4eVBHWf1Bwl2CDeu8DA==",
+  "dgSpecHash": "2Ji1RMKIRY5WF6zWYgFIP9H7SiLRQqMEmrXyQBX/1Gx8WGBXlyW0avNShwEGW211clKkkZPOhDvfYuddrYe2YA==",
   "success": true,
   "projectFilePath": "D:\\Projetos\\2023\\microservices\\PlatformService\\PlatformService.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "C:\\Users\\rlins\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\rlins\\.nuget\\packages\\microsoft.entityframeworkcore\\1.1.1\\microsoft.entityframeworkcore.1.1.1.nupkg.sha512",
     "C:\\Users\\rlins\\.nuget\\packages\\microsoft.entityframeworkcore.design\\1.1.1\\microsoft.entityframeworkcore.design.1.1.1.nupkg.sha512",
+    "C:\\Users\\rlins\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\1.1.1\\microsoft.entityframeworkcore.inmemory.1.1.1.nupkg.sha512",
     "C:\\Users\\rlins\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\1.1.1\\microsoft.entityframeworkcore.relational.1.1.1.nupkg.sha512",
     "C:\\Users\\rlins\\.nuget\\packages\\microsoft.entityframeworkcore.relational.design\\1.1.1\\microsoft.entityframeworkcore.relational.design.1.1.1.nupkg.sha512",
     "C:\\Users\\rlins\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
