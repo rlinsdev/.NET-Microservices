@@ -2,6 +2,7 @@ using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using PlatformService.Data;
 using PlatformService.Dtos;
+using PlatformService.Models;
 
 namespace PlatformService.Controllers
 {
@@ -35,6 +36,19 @@ namespace PlatformService.Controllers
                 return Ok(_mapper.Map<PlatformReadDto>(platformItem));
             else
                 return NotFound();
+        }
+
+        [HttpPost]
+        public ActionResult<PlatformReadDto> CreatePlatform(PlatformCreateDto platformCreate)
+        {
+            var platformModel = _mapper.Map<Platform>(platformCreate);
+            _repository.CreatePlatform(platformModel);
+            _repository.SaveChanges();
+
+            var platformReadDto = _mapper.Map<PlatformReadDto>(platformModel);
+            /* Will return a route to get the specific register that I insert right now.
+             * Sample: http://localhost:5092/api/Platforms/4 */
+            return CreatedAtRoute(nameof(GetPlatformById), new {Id = platformReadDto.Id}, platformReadDto);
         }
     }
 }

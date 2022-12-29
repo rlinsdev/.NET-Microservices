@@ -22,6 +22,12 @@
 * `dotnet add package Microsoft.EntityFrameworkCore.SqlServer`
 
 
+### Tools
+* VSCode
+* Postman
+
+
+
 ### Shortcut VsCode
 | ShortCut | Obs |
 |-|-
