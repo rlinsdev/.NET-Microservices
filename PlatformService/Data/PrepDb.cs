@@ -19,7 +19,7 @@ namespace PlatformService.Data
     {
       if (!context.Platforms.Any())
       {
-        Console.WriteLine("seeding data");
+        Console.WriteLine("--> Seeding data");
         context.Platforms.AddRange(
           new Platform() {Name="DotNet", Publisher="Microsoft", Cost="Free"},
           new Platform() {Name="SQL Server", Publisher="Microsoft", Cost="Free"},
@@ -29,7 +29,7 @@ namespace PlatformService.Data
       }
       else
       {
-        Console.WriteLine("We already have data");
+        Console.WriteLine("--> We already have data");
       }
     }
   }
