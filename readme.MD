@@ -12,11 +12,11 @@
 * `dotnet new webapi -n PlatformService`
 * `dotnet build`
 * `dotnet run`
-* `dotnet new webapi -n PlatformService --force` New version
+* `docker build -t [99999]/platformservice .`
 
 ### Commands-PlatformService
 * `dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection`
-* `dotnet add package Microsoft.EntityFrameworkCore` When upgrade, no specify version
+* `dotnet add package Microsoft.EntityFrameworkCore`
 * `dotnet add package Microsoft.EntityFrameworkCore.Design`
 * `dotnet add package Microsoft.EntityFrameworkCore.InMemory`
 * `dotnet add package Microsoft.EntityFrameworkCore.SqlServer`
