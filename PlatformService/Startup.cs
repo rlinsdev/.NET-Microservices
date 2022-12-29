@@ -31,6 +31,7 @@ namespace PlatformService
             services.AddDbContext<AppDbContext>(opt => 
                 opt.UseInMemoryDatabase("InMem"));
 
+            // Dependece injection: Register the interface and the concrete implementation.
             services.AddScoped<IPlataformRepo, PlatformRepo>();
 
             services.AddControllers();
