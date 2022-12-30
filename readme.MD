@@ -6,23 +6,29 @@
 
 </div>
 
-### Commands:
+### Commands Dotnet:
 
 * `dotnet --version`: 7.0.101
 * `dotnet new webapi -n PlatformService`
 * `dotnet build`
 * `dotnet run`
+
+### Commands Docker:
 * `docker build -t [99999]/platformservice .`
 * `docker run -p 8080:80 -d [99999]/platformservice`
 * `docker ps` Show runing container 
 * `docker stop 325c4d758b95` Show runing container 
 * `docker start 325c4d758b95` Start stoped container
 * `docker push 22369/platformservice` Push img to docker hub
+
+### Commands Kubernetes:
 * `kubectl version` 
 * `$/k8s>kubectl apply -f platforms-depl.yaml`
 * `$/k8s>kubectl get deployments`
 * `$/k8s>kubectl get pods`
 * `$/k8s>kubectl delete deployment platforms-depl`
+* `$/k8s>kubectl apply -f platforms-np-srv.yaml`
+* `$/k8s>kubectl get services`
 
 ### Commands-PlatformService
 * `dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection`
