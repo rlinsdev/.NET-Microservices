@@ -18,6 +18,11 @@
 * `docker stop 325c4d758b95` Show runing container 
 * `docker start 325c4d758b95` Start stoped container
 * `docker push 22369/platformservice` Push img to docker hub
+* `kubectl version` 
+* `$/k8s>kubectl apply -f platforms-depl.yaml`
+* `$/k8s>kubectl get deployments`
+* `$/k8s>kubectl get pods`
+* `$/k8s>kubectl delete deployment platforms-depl`
 
 ### Commands-PlatformService
 * `dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection`
