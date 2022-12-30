@@ -13,6 +13,11 @@
 * `dotnet build`
 * `dotnet run`
 * `docker build -t [99999]/platformservice .`
+* `docker run -p 8080:80 -d [99999]/platformservice`
+* `docker ps` Show runing container 
+* `docker stop 325c4d758b95` Show runing container 
+* `docker start 325c4d758b95` Start stoped container
+* `docker push 22369/platformservice` Push img to docker hub
 
 ### Commands-PlatformService
 * `dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection`
