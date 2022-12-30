@@ -15,6 +15,8 @@ builder.Services.AddControllers();
 // Automapper dependecy injection
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
+Console.WriteLine($"--> Command Service EndPoint: {builder.Configuration["CommandService"]}");
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
