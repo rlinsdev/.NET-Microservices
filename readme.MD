@@ -39,6 +39,12 @@
 ### Commands Dotnet - Commands Service
 * `dotnet new webapi -n CommandsService`
 
+### Commands - Commands Service
+* `dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection`
+* `dotnet add package Microsoft.EntityFrameworkCore`
+* `dotnet add package Microsoft.EntityFrameworkCore.Design`
+* `dotnet add package Microsoft.EntityFrameworkCore.InMemory`
+
 ### Dev endpoints Platform Service
 * GET  http://localhost:5092/api/Platforms
 * GET  http://localhost:5092/api/Platforms/{id}
