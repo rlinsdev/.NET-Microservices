@@ -19,7 +19,7 @@
 * `dotnet add package Microsoft.EntityFrameworkCore.InMemory`
 * `dotnet add package Microsoft.EntityFrameworkCore.SqlServer`
 
-### Commands Docker:
+### Commands Docker - PlatformService:
 * `docker build -t [99999]/platformservice .`
 * `docker run -p 8080:80 -d [99999]/platformservice`
 * `docker ps` Show runing container 
@@ -44,6 +44,11 @@
 * `dotnet add package Microsoft.EntityFrameworkCore`
 * `dotnet add package Microsoft.EntityFrameworkCore.Design`
 * `dotnet add package Microsoft.EntityFrameworkCore.InMemory`
+
+### Commands Docker - Commands Service:
+* `docker build -t 22369/commandservice .`
+* `docker push 22369/commandservice` Push img to docker hub
+* `docker run -p 8080:80 22369/commandservice`
 
 ### Dev endpoints - Platform Service
 * GET  http://localhost:5092/api/Platforms
