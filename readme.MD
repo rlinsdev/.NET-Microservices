@@ -45,10 +45,13 @@
 * `dotnet add package Microsoft.EntityFrameworkCore.Design`
 * `dotnet add package Microsoft.EntityFrameworkCore.InMemory`
 
-### Dev endpoints Platform Service
+### Dev endpoints - Platform Service
 * GET  http://localhost:5092/api/Platforms
 * GET  http://localhost:5092/api/Platforms/{id}
 * POST http://localhost:5092/api/Platforms
+
+### Dev endpoints - Commands Service
+* POST http://localhost:5140/api/c/Platforms
 
 ### Docker endpoints Platform Service
 * GET  http://localhost:8080/api/Platforms
