@@ -6,12 +6,18 @@
 
 </div>
 
-### Commands Dotnet:
-
+### Commands Dotnet - Platform Service:
 * `dotnet --version`: 7.0.101
 * `dotnet new webapi -n PlatformService`
 * `dotnet build`
 * `dotnet run`
+
+### Commands-PlatformService
+* `dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection`
+* `dotnet add package Microsoft.EntityFrameworkCore`
+* `dotnet add package Microsoft.EntityFrameworkCore.Design`
+* `dotnet add package Microsoft.EntityFrameworkCore.InMemory`
+* `dotnet add package Microsoft.EntityFrameworkCore.SqlServer`
 
 ### Commands Docker:
 * `docker build -t [99999]/platformservice .`
@@ -30,13 +36,18 @@
 * `$/k8s>kubectl apply -f platforms-np-srv.yaml`
 * `$/k8s>kubectl get services`
 
-### Commands-PlatformService
-* `dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection`
-* `dotnet add package Microsoft.EntityFrameworkCore`
-* `dotnet add package Microsoft.EntityFrameworkCore.Design`
-* `dotnet add package Microsoft.EntityFrameworkCore.InMemory`
-* `dotnet add package Microsoft.EntityFrameworkCore.SqlServer`
+### Commands Dotnet - Commands Service
+* `dotnet new webapi -n CommandsService`
 
+### Dev endpoints Platform Service
+* GET  http://localhost:5092/api/Platforms
+* GET  http://localhost:5092/api/Platforms/{id}
+* POST http://localhost:5092/api/Platforms
+
+### Docker endpoints Platform Service
+* GET  http://localhost:8080/api/Platforms
+* GET  http://localhost:8080/api/Platforms/{id}
+* POST http://localhost:8080/api/Platforms
 
 ### Tools
 * VSCode
@@ -51,6 +62,6 @@
 |Ctrl + B|Hide Explorer tab |
 |Ctrl + J|Hide Terminal tab |
 
-### Course:
+### Full Course:
 * https://github.com/binarythistle/S04E03---.NET-Microservices-Course-
 * https://www.youtube.com/watch?v=DgVjEo3OGBI
