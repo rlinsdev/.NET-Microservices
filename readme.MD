@@ -35,6 +35,8 @@
 * `$/k8s>kubectl delete deployment platforms-depl`
 * `$/k8s>kubectl apply -f platforms-np-srv.yaml`
 * `$/k8s>kubectl get services`
+* `$/k8s>kubectl apply -f platforms-depl.yaml`
+* `$/k8s>kubectl rollout restart deployment platforms-depl`
 
 ### Commands Dotnet - Commands Service
 * `dotnet new webapi -n CommandsService`
