@@ -12,7 +12,7 @@
 * `dotnet build`
 * `dotnet run`
 
-### Commands-PlatformService
+### Commands - PlatformService
 * `dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection`
 * `dotnet add package Microsoft.EntityFrameworkCore`
 * `dotnet add package Microsoft.EntityFrameworkCore.Design`
@@ -52,6 +52,9 @@
 * `docker build -t 22369/commandservice .`
 * `docker push 22369/commandservice` Push img to docker hub
 * `docker run -p 8080:80 22369/commandservice`
+
+## Commands Nginx
+* `kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.5.1/deploy/static/provider/cloud/deploy.yaml` 
 
 ### Dev endpoints - Platform Service
 * GET  http://localhost:5092/api/Platforms
