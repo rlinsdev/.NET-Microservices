@@ -60,6 +60,9 @@
 ## Commands Nginx
 * `kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.5.1/deploy/static/provider/cloud/deploy.yaml` 
 
+## Commands SQL
+* `kubectl get storageclass`
+
 ### Dev endpoints - Platform Service
 * GET  http://localhost:5092/api/Platforms
 * GET  http://localhost:5092/api/Platforms/{id}
