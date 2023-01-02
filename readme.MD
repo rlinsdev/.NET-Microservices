@@ -38,6 +38,9 @@
 * `$/k8s>kubectl apply -f platforms-depl.yaml`
 * `$/k8s>kubectl rollout restart deployment platforms-depl`
 * `$/k8s>kubectl apply -f commands-depl.yaml`
+* `$/k8s>kubectl get namespace`
+* `$/k8s>kubectl get pods --namespace=ingress-nginx`
+
 
 ### Commands Dotnet - Commands Service
 * `dotnet new webapi -n CommandsService`
