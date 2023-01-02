@@ -39,8 +39,6 @@
 * `$/k8s>kubectl rollout restart deployment platforms-depl`
 * `$/k8s>kubectl apply -f commands-depl.yaml`
 * `$/k8s>kubectl get namespace`
-* `$/k8s>kubectl get pods --namespace=ingress-nginx`
-* `$/k8s>kubectl apply -f ingress-srv.yaml`
 
 
 ### Commands Dotnet - Commands Service
@@ -59,9 +57,13 @@
 
 ## Commands Nginx
 * `kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.5.1/deploy/static/provider/cloud/deploy.yaml` 
+* `$/k8s>kubectl get pods --namespace=ingress-nginx`
+* `$/k8s>kubectl apply -f ingress-srv.yaml`
 
 ## Commands SQL
 * `kubectl get storageclass`
+* `$/k8s>kubectl apply -f local-pvc.yaml`
+* `$/k8s>kubectl create secret generic mssql --from-literal=SA_PASSWORD="pa55w0rd!"`
 
 ### Dev endpoints - Platform Service
 * GET  http://localhost:5092/api/Platforms
