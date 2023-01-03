@@ -82,7 +82,7 @@
 ### Tools
 * VSCode
 * Postman
-
+* SQL Management Studio
 
 
 ### Shortcut VsCode
