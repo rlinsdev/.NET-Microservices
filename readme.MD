@@ -64,6 +64,7 @@
 * `kubectl get storageclass`
 * `$/k8s>kubectl apply -f local-pvc.yaml`
 * `$/k8s>kubectl create secret generic mssql --from-literal=SA_PASSWORD="pa55w0rd!"`
+* `$/k8s>kubectl apply -f mssql-plat-depl.yaml`
 
 ### Dev endpoints - Platform Service
 * GET  http://localhost:5092/api/Platforms
